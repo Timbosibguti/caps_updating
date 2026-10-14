@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+
+# Локальный compose с прод-паролями (в git — docker-compose.dev.yml)
+docker-compose.yml
+
+# Кэш/дампы API и runtime
+rotation.json
+fetch_data.log
+history-slack.txt
+*.log
+supervisord.log
+supervisord.pid
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
